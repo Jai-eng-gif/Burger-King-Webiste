@@ -1,0 +1,305 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+.heading{
+    font-size: 3rem;
+    text-decoration: none;
+    color: orange;
+    font-family:sans-serif;
+    margin-left: 66px;
+    position: relative;
+    top: 20px;
+    text-shadow: 1vvvpx 1px 2px red;
+    
+    
+}
+.heading span{
+    color: green;
+}
+.heading:hover{
+    color:orange;
+}
+
+.abc{
+    margin-top: 30px;
+}
+
+.form1{
+    height: 394px;
+    margin-top: 30px;
+    border:ridge;
+    background-color: orange;
+    font-family: sans-serif;
+}
+
+.book{
+    margin-top: 28px;
+
+}
+.book h1,p{
+    position: relative;
+    right: 82px;
+}
+
+.menu{
+    background-color:#F5F5F5;
+    position: relative;
+    top:85px;
+    
+}
+
+.burger svg{
+height: 40px;
+width: 40px;
+position: relative;
+left: 118px;
+}
+.snacks svg{
+    height: 40px;
+    width: 40px;
+    position: relative;
+left: 118px;
+}
+
+.burger h2{
+    position: relative;
+    left: 87px;
+}
+
+.snacks h2{
+    position: relative;
+    left: 95px;
+}
+
+.burger p{
+    text-align: center;
+}
+.snacks p{text-align: center;}
+
+
+.snacks{position: relative;
+left: 108px;
+}
+
+.burger{
+    position: relative;
+    right: -75px;
+}
+.footer-contact{
+    position: relative;
+    top: 198px;
+    text-align: left;
+}
+
+.footer-contact h2{
+    text-decoration: underline;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: -78px;
+    color: #FBAF32;
+}
+
+.footer-link{
+    position: relative;
+    top: 198px;
+    text-align: left;
+}
+
+.footer-link h2{
+    text-decoration: underline;
+    text-align: left;
+    margin-bottom: -6px;
+    color: #FBAF32;
+    
+
+}
+
+.footer-newsletter{
+    position: relative;
+    top: 198px;
+    text-align: left;
+}
+
+.footer-newsletter h2{
+    text-decoration: underline;
+    text-align: left;
+    margin-bottom: -6px;
+color: #FBAF32;
+}
+.footer-newsletter p{
+    position: relative;
+    left: 1px;
+    top: 15px;
+}
+
+.banner1{
+    filter: blur(1px);
+    
+
+    
+}
+.display-1{
+    position: absolute;
+    top: 745px;
+    left: 388px;
+    color: #FBAF32;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.section-0 p{
+    margin-left: 85px;
+    top: 22px;
+    color: #719A0A;
+
+}
+
+.section-0{
+    margin-top: 30px;
+}
+
+.feature-text p{
+    margin-left: 90px;
+    top: 20px;
+}
+.button{
+    text-decoration: none;
+    border:ridge;
+    background-color: #FBAF32;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 188px;
+    top: 1478px;
+    padding: 5px ;
+}
+
+.button:hover{color: white;}
+    
+.items1{
+    margin-top: 98px;
+ 
+}
+.items2{
+    margin-top: 98px;
+ 
+}
+.items1 p{margin-left: 80px;padding-bottom: 10px;}
+.items2 p{margin-left: 80px; padding-bottom: 10px}
+.items3 p{margin-left: 80px;padding-bottom: 10px}
+.items4 p{margin-left: 80px;padding-bottom: 10px}
+.items5 p{margin-left: 80px;padding-bottom: 10px}
+.items6 p{margin-left: 80px;padding-bottom: 10px}
+
+
+.display-2{
+    position: absolute;
+    top: 745px;
+    left: 490px;
+    color: #FBAF32;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+.aboutimg{
+margin-top: 80px;
+
+
+}
+
+.section-abt{
+    margin-top: 30px;
+    margin-left: 54px;
+}
+
+.section-abt p{
+    margin-top: 164px;
+    margin-left: 85px;
+    top: 22px;
+    color: #719A0A;
+
+}
+
+.section-abt h2{
+    margin-top: 30px;
+}
+
+.section-abt1{
+    margin-top: 38px;
+    margin-left: 138px;
+}
+
+.button1{
+    text-decoration: none;
+    border:ridge;
+    background-color: #FBAF32;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 741px;
+    top: 1533px;
+    padding: 5px ;
+    border-radius: 5%;
+}
+
+.button1:hover{color: white;}
+
+.bcontact{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bcontact p{
+    color: #85A82D;
+    margin-left: 130px;
+    font-size: 30px;
+}
+
+.button0{
+   margin-top: 20px;
+   margin-left: 8px;
+   background-color: #FBAF32;
+}
+ .button0:hover{
+     background-color: #FBAF32;
+ }
+
+ .button00{
+     margin-left: 55px;
+     background-color: #FBAF32;
+ }
+
+ .button00:hover{
+    background-color: #FBAF32;
+}
+
+
+.contact-info p{
+    margin-left: 115px;
+}
+.contact-info svg{
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.contact-info{
+    margin-top: 78px;
+    margin-left: 48px;
+    
+}
+
+
+
+.loc{
+    margin-top: 75px;
+    
+}
+
+.feedback{
+    margin-left: 92px;
+    margin-top: 70px;
+}
+
+

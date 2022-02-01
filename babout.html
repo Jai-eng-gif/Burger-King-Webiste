@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/burger1.css" rel="stylesheet">
+    <link href="css/960_12_col.css" rel="stylesheet">
+    <script src="js/jquerymini.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <a href="burger.html" class="heading">Burger <span>King</span></a>
+    </div>
+    <!--nav-->
+    <div class="abc">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page"
+                            href="burger.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+                        <a class="nav-link" href="feature.html">&nbsp;&nbsp;&nbsp;Features</a>
+                        <a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;About us</a>
+                        <a class="nav-link" href="bcontact.html">&nbsp;&nbsp;&nbsp;Contact</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--banner-->
+    <div class="banner1">
+        <img src="img/carousel-2.jpg" alt="Image">
+    </div>
+    <div>
+        <h1 class="display-2">About Us</h1>
+    </div>
+
+    <!--aboutus-->
+    <div class="container">
+        <div class="row">
+            <div class="col-6 aboutimg">
+                <img style="border-radius: 5%;" src="img/about.jpg" alt="about us">
+            </div>
+            <div class="col-6 aboutinfo">
+                <div class="section-abt">
+                    <p>About Us</p>
+                    <h2>Cooking Since 1990</h2>
+                </div>
+                <div class="section-abt1">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                    </p>
+                </div>
+                <button type="button" class="btn btn-primary button00" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="@getbootstrap">Book A Table</button>
+      
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Booking Form</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="register.php" method="POST">
+                        <table align="center">
+                          <tr>
+                            <th><label for="username"><br><br>Name</label> </th>
+                            <td><br><br><input type="text" name="name" id="username" value=""></td>
+                          </tr>
+                          <tr>
+                            <th><label for="email"><br>Email</label> </th>
+                            <td><br><input type="email" name="email" id="email" required></td>
+                          </tr>
+                          <tr>
+                            <th><label for="contact"><br>Contact</label> </th>
+                            <td><br><input type="number" name="contact" id="contact" required></td>
+                          </tr>
+                          <tr>
+                            <th><label for="time"><br>Time</label> </th>
+                            <td><br><input type="time" name="time" id="time" required></td>
+                          </tr>
+                          <tr>
+                            <th><label for="date"><br>Date</label> </th>
+                            <td><br><input type="date" name="date" id="date" required></td>
+                          </tr>
+      
+      
+                        </table>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Book now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <div class="container_12">
+        <footer>
+            <div class="grid_4">
+                <div class="footer-contact">
+                    <h2>Our Address</h2>
+
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FBAF32"
+                            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                        </svg> 123 Street, New York, USA</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FBAF32"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg> +012 345 67890</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FBAF32"
+                            class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg> info@example.com</p>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div class="footer-link">
+                    <h2>Quick Links</h2>
+                    <a><br>>Terms of use</a>
+                    <a><br>>Privacy policy</a>
+                    <a><br>>Cookies</a>
+                    <a><br>>Help</a>
+                    <a><br>>FQAs</a>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div class="footer-newsletter">
+                    <h2>Newsletter</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat
+                        rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
+                    </p>
+                    <div class="form">
+                        <br><input style="border-color: #FBAF32;" class="form-control" placeholder="Email goes here">
+                        <br><button style="background: #FBAF32; color: white;"> Submit</button>
+                    </div>
+                </div>
+                <div class="clear"></div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
